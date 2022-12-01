@@ -8,6 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@picocss/pico": "^1.5.6",
+    "nuxt": "3.0.0",
+    "zod": "^3.19.1"
   }
 }

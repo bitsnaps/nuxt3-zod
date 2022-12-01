@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Blog
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -45,5 +45,20 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+
+## Dependencies
+```bash
+pnpm add -D @picocss/pico zod
+```
+
+## Deploy
+Configure to `netlify` as example:
+```bash
+NITRO_PRESET=netlify pnpm build
+
+# Deploy to netlify
+ntl deploy
+```
+
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
