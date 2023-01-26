@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import postSchema from '@/types/postSchema'
-
 const id = useRoute().params.id
 
 const { data: post, error } = await useFetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
